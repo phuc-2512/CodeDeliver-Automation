@@ -1,6 +1,7 @@
 import time
 import os
 from create_mq4 import create_mq4_file
+from update_mq4 import update_mq4_file
 from zip_util import zip_file
 from email_util import send_email_with_attachment
 import sys
@@ -11,15 +12,18 @@ if __name__ == "__main__":
     # Tên bot và đường dẫn tệp .mq4
     bot_name = "MyBot"
     mq4_file_path = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"
-
-     # Các thông số cho bot
-    bot_id = "123456"
-    gmail = "example@gmail.com"
-    expiration_time = "2024-12-31"
-
-    # Tạo tệp .mq4 với các thông số id, gmail, và thời gian hết hạn
-    create_mq4_file(mq4_file_path, bot_name, bot_id, gmail, expiration_time)
     
+    # Tạo tệp .mq4 với các giá trị mặc định
+    create_mq4_file(mq4_file_path, bot_name)
+    
+    # Nhập thông số mới từ người dùng
+    new_id = input("Nhập ID mới: " )
+    new_gmail = input("Nhập Gmail mới: ")
+    new_expiration_time = input("Nhập thời gian hết hạn mới: ")
+
+    # Cập nhật tệp .mq4 với các thông số mới
+    update_mq4_file(mq4_file_path, new_id, new_gmail, new_expiration_time)
+
     # Đường dẫn tới file bạn muốn đóng gói
     file_to_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"
     

@@ -1,7 +1,7 @@
 # create_mq4.py
 
-def create_mq4_file(file_path, bot_name, id, gmail, expiration_time):
-    """Tạo một tệp .mq4 với cấu trúc cơ bản bao gồm thông số id, gmail, và thời gian hết hạn"""
+def create_mq4_file(file_path, bot_name):
+    """Tạo một tệp .mq4 với cấu trúc cơ bản bao gồm các thông số id, gmail, và thời gian hết hạn"""
     content = f"""
 //+------------------------------------------------------------------+
 //|                                                        {bot_name}.mq4 |
@@ -11,15 +11,15 @@ def create_mq4_file(file_path, bot_name, id, gmail, expiration_time):
 #property strict
 
 // Thông số cấu hình
-input string ID = "{id}";
-input string Gmail = "{gmail}";
-input string ExpirationTime = "{expiration_time}";
+input string ID = "";
+input string Gmail = "";
+input string ExpirationTime = "";
 
 int OnInit()
   {{
-   Print("Bot ID: {id}");
-   Print("Gmail: {gmail}");
-   Print("Expiration Time: {expiration_time}");
+   Print("Bot ID: ", ID);
+   Print("Gmail: ", Gmail);
+   Print("Expiration Time: ", ExpirationTime);
    // TODO: Add your code here
    return(INIT_SUCCEEDED);
   }}
@@ -34,7 +34,7 @@ int OnTick()
 //+------------------------------------------------------------------+
 void OnDeinit(const int reason)
   {{
-   Print("Deinitializing bot with ID: {id}");
+   Print("Deinitializing bot with ID: ", ID);
    // TODO: Add your code here
   }}
 //+------------------------------------------------------------------+
