@@ -1,5 +1,8 @@
 import zipfile
 import os
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
 
 def zip_file(file_to_zip, output_zip):
     """Đóng gói file thành file .zip"""
