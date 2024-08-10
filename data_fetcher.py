@@ -26,7 +26,3 @@ def fetch_latest_data():
         print("Chưa có dữ liệu mới nào từ bot signal.")
     except json.JSONDecodeError:
         print("Lỗi khi đọc dữ liệu từ tệp JSON.")
-
-if __name__ == "__main__":
-    # Gọi hàm lấy dữ liệu mới nhất
-    fetch_latest_data()
