@@ -28,6 +28,15 @@ document.getElementById('paymentForm').addEventListener('submit', function (even
 
     const email = document.getElementById('email').value;
     const paymentDate = document.getElementById('paymentDate').value;
+    const accountId = document.getElementById('accountId').value; // Lấy ID account từ form
+
+    // Calculate the expiry date by adding 30 days to the payment date
+    const expiryDate = new Date(paymentDate);
+    expiryDate.setDate(expiryDate.getDate() + 30);
+
+    // Format the expiry date to YYYY-MM-DD
+    const formattedExpiryDate = expiryDate.toISOString().split('T')[0];
+
 
     // Create a unique key for each entry
     const userId = new Date().getTime().toString();
@@ -35,7 +44,9 @@ document.getElementById('paymentForm').addEventListener('submit', function (even
     // Write to Realtime Database
     set(ref(database, 'payments/' + userId), {
         email: email,
-        paymentDate: paymentDate
+        paymentDate: paymentDate,
+        expiryDate: formattedExpiryDate,
+        accountId: accountId  // Lưu ID account vào Firebase
     })
         .then(() => {
             alert('Payment information saved successfully!');
