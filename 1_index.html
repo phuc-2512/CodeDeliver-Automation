@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Purchase</title>
+    <link rel="stylesheet" href="./2_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Our Product</h1>
+        <p>Experience the best in innovation and quality. Our product is designed to make your life easier.</p>
+
+        <form id="paymentForm">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="paymentDate">Payment Date:</label>
+                <input type="date" id="paymentDate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="accountId">Account ID:</label>
+                <input type="text" id="accountId" required>
+            </div>
+
+            <button type="submit" class="btn" id="payNowBtn">Pay Now</button>
+        </form>
+
+        <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <div id="progressPercentage" class="progress-percentage">0%</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js" type="module"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js" type="module"></script>
+    <script src="3. input_data.js" type="module"></script>
+    <script src="4. client.js"></script>
+</body>
+
+</html>

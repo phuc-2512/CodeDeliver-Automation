@@ -7,39 +7,43 @@ from create_mq4 import create_mq4_file
 from zip_util import zip_file
 from email_util import send_email_with_attachment
 import sys
+import json
+
 sys.stdout.reconfigure(encoding='utf-8')
 
 
-if __name__ == "__main__":
+def run_process():
+    progress = 0
+    update_progress(progress)
     
     # Chạy bot kiểm tra tín hiệu từ server
-    check_signal()  # Gọi hàm run_bot từ signal_bot.py
-    fetch_latest_data()
+    check_signal()
+    progress += 20
+    update_progress(progress)
     
-    # Tên bot và đường dẫn tệp .mq4
+    fetch_latest_data()
+    progress += 20
+    update_progress(progress)
+    
+     # Tên bot và đường dẫn tệp .mq4
     bot_name = "MyBot"
-    mq4_file_path = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"
+    mq4_file_path = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"
     
     # Tạo tệp .mq4 với các giá trị mặc định
     create_mq4_file(mq4_file_path, bot_name)
+    progress += 20
+    update_progress(progress)
 
     # Cập nhật tệp .mq4 với các thông số mới
     update_mq4_file(mq4_file_path)
+    progress += 20
+    update_progress(progress)
 
     # Đường dẫn tới file bạn muốn đóng gói
-    file_to_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"
+    file_to_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"
     
     # Đường dẫn tới file .zip sẽ được tạo
-    output_zip = r"C:\Users\phanv\OneDrive\Đính kèm\b.zip"
-    
-    # Địa chỉ email người nhận
-    to_email = "phanvanphuc25122008@gmail.com"
-    
-    # Tiêu đề email
-    subject = "File EX4 đã được đóng gói"
-    
-    # Nội dung email
-    body = "Vui lòng kiểm tra file đính kèm."
+    output_zip = r"C:\Users\phanv\OneDrive\Đính kèm\b.zip"
 
     # Đóng gói file
     zip_file(file_to_zip, output_zip)
@@ -49,14 +53,25 @@ if __name__ == "__main__":
         print(f"File zip đã được tạo thành công tại {output_zip}")
     else:
         print("Lỗi: File zip chưa được tạo.")
-        exit(1)
+        return
+    
+    progress += 10
+    update_progress(progress)
     
     # delay 5s
     time.sleep(5)
 
     # Gửi email với file zip đính kèm và bắt lỗi nếu có
     try:
-        send_email_with_attachment(to_email, subject, body, output_zip)
+        send_email_with_attachment(output_zip)
+        progress = 100
+        update_progress(progress)
     except Exception as e:
         print(f"Lỗi khi gửi email: {e}")
-        
+
+def update_progress(progress):
+    with open('progress.json', 'w') as f:
+        json.dump({'progress': progress}, f)
+
+if __name__ == "__main__":
+    run_process()
