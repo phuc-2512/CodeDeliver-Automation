@@ -12,13 +12,11 @@ def create_mq4_file(file_path, bot_name):
 
 // Thông số cấu hình
 input string ID = "";
-input string Gmail = "";
 input string ExpirationTime = "";
 
 int OnInit()
   {{
    Print("Bot ID: ", ID);
-   Print("Gmail: ", Gmail);
    Print("Expiration Time: ", ExpirationTime);
    // TODO: Add your code here
    return(INIT_SUCCEEDED);

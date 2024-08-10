@@ -22,14 +22,9 @@ if __name__ == "__main__":
     
     # Tạo tệp .mq4 với các giá trị mặc định
     create_mq4_file(mq4_file_path, bot_name)
-    
-    # Nhập thông số mới từ người dùng
-    new_id = input("Nhập ID mới: " )
-    new_gmail = input("Nhập Gmail mới: ")
-    new_expiration_time = input("Nhập thời gian hết hạn mới: ")
 
     # Cập nhật tệp .mq4 với các thông số mới
-    update_mq4_file(mq4_file_path, new_id, new_gmail, new_expiration_time)
+    update_mq4_file(mq4_file_path)
 
     # Đường dẫn tới file bạn muốn đóng gói
     file_to_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"

@@ -16,11 +16,12 @@ def fetch_latest_data():
             latest_entry = latest_data[latest_key]
 
             print("Đã lấy dòng dữ liệu mới nhất từ bot signal:")
-            email = latest_entry.get('email', 'N/A')
-            payment_date = latest_entry.get('paymentDate', 'N/A')
-            expiry_date = latest_entry.get('expiryDate', 'N/A')
-            account_id = latest_entry.get('accountId', 'N/A')
-            print(f"Email: {email}, Payment Date: {payment_date}, Expiry Date: {expiry_date}, Account ID: {account_id}")
+            #email = latest_entry.get('email', 'N/A')
+            #payment_date = latest_entry.get('paymentDate', 'N/A')
+            #expiry_date = latest_entry.get('expiryDate', 'N/A')
+            #account_id = latest_entry.get('accountId', 'N/A')
+            print(f"Email: {latest_entry.get('email', 'N/A')}, Payment Date: {latest_entry.get('paymentDate', 'N/A')}, Expiry Date: {latest_entry.get('expiryDate', 'N/A')}, Account ID: {latest_entry.get('accountId', 'N/A')}")
+            return latest_entry
     except FileNotFoundError:
         print("Chưa có dữ liệu mới nào từ bot signal.")
     except json.JSONDecodeError:
