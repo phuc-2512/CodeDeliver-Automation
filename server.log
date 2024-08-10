@@ -1,0 +1,30 @@
+2024-08-10 15:43:17,297 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2024-08-10 15:43:17,297 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-10 15:43:17,298 - INFO -  * Restarting with stat
+2024-08-10 15:43:17,523 - WARNING -  * Debugger is active!
+2024-08-10 15:43:17,525 - INFO -  * Debugger PIN: 672-597-689
+2024-08-10 15:43:17,931 - INFO - 127.0.0.1 - - [10/Aug/2024 15:43:17] "[31m[1mGET /index.html/ws HTTP/1.1[0m" 400 -
+2024-08-10 15:43:37,785 - INFO - Nh\u1eadn \u0111\u01b0\u1ee3c d\u1eef li\u1ec7u: {}
+2024-08-10 15:43:37,800 - INFO - 127.0.0.1 - - [10/Aug/2024 15:43:37] "POST /start-process HTTP/1.1" 200 -
+2024-08-10 15:43:42,174 - INFO - 127.0.0.1 - - [10/Aug/2024 15:43:42] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:43:42,810 - INFO - 127.0.0.1 - - [10/Aug/2024 15:43:42] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:43:43,813 - INFO - 127.0.0.1 - - [10/Aug/2024 15:43:43] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:43:44,810 - INFO - 127.0.0.1 - - [10/Aug/2024 15:43:44] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:43:45,808 - INFO - 127.0.0.1 - - [10/Aug/2024 15:43:45] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:43:46,809 - INFO - 127.0.0.1 - - [10/Aug/2024 15:43:46] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:43:47,808 - INFO - 127.0.0.1 - - [10/Aug/2024 15:43:47] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:45:08,649 - INFO -  * Detected change in 'c:\\Users\\phanv\\OneDrive\\Tài li\u1ec7u\\GitHub\\python-autpmation\\main.py', reloading
+2024-08-10 15:45:08,700 - INFO -  * Restarting with stat
+2024-08-10 15:45:08,924 - WARNING -  * Debugger is active!
+2024-08-10 15:45:08,926 - INFO -  * Debugger PIN: 672-597-689
+2024-08-10 15:46:04,578 - INFO - Nh\u1eadn \u0111\u01b0\u1ee3c d\u1eef li\u1ec7u: {}
+2024-08-10 15:46:04,588 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:04] "POST /start-process HTTP/1.1" 200 -
+2024-08-10 15:46:08,957 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:08] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:46:09,592 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:09] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:46:10,596 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:10] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:46:11,592 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:11] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:46:12,597 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:12] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:46:13,593 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:13] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:46:14,593 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:14] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:46:15,593 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:15] "GET /progress HTTP/1.1" 200 -
