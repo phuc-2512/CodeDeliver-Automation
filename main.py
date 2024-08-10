@@ -1,15 +1,21 @@
 import time
 import os
-from create_mq4 import create_mq4_file
+from signal_bot import check_signal
+from data_fetcher import fetch_latest_data
 from update_mq4 import update_mq4_file
+from create_mq4 import create_mq4_file
 from zip_util import zip_file
 from email_util import send_email_with_attachment
-from signal_bot import run_bot  # Import hàm run_bot từ signal_bot.py
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 
 if __name__ == "__main__":
+    
+    # Chạy bot kiểm tra tín hiệu từ server
+    check_signal()  # Gọi hàm run_bot từ signal_bot.py
+    fetch_latest_data()
+    
     # Tên bot và đường dẫn tệp .mq4
     bot_name = "MyBot"
     mq4_file_path = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"
@@ -59,5 +65,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Lỗi khi gửi email: {e}")
         
-    # Chạy bot kiểm tra tín hiệu từ server
-    run_bot()  # Gọi hàm run_bot từ signal_bot.py
