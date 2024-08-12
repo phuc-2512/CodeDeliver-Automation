@@ -28,3 +28,65 @@
 2024-08-10 15:46:13,593 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:13] "GET /progress HTTP/1.1" 200 -
 2024-08-10 15:46:14,593 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:14] "GET /progress HTTP/1.1" 200 -
 2024-08-10 15:46:15,593 - INFO - 127.0.0.1 - - [10/Aug/2024 15:46:15] "GET /progress HTTP/1.1" 200 -
+2024-08-10 15:58:48,540 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2024-08-10 15:58:48,540 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-10 15:58:48,541 - INFO -  * Restarting with stat
+2024-08-10 15:58:48,758 - WARNING -  * Debugger is active!
+2024-08-10 15:58:48,761 - INFO -  * Debugger PIN: 672-597-689
+2024-08-10 15:59:19,904 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2024-08-10 15:59:19,904 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-10 15:59:19,905 - INFO -  * Restarting with stat
+2024-08-10 15:59:20,111 - WARNING -  * Debugger is active!
+2024-08-10 15:59:20,113 - INFO -  * Debugger PIN: 672-597-689
+2024-08-10 15:59:44,619 - INFO -  * Detected change in 'c:\\Users\\phanv\\OneDrive\\Tài li\u1ec7u\\GitHub\\python-autpmation\\sever.py', reloading
+2024-08-10 15:59:44,658 - INFO -  * Restarting with stat
+2024-08-10 15:59:44,876 - WARNING -  * Debugger is active!
+2024-08-10 15:59:44,878 - INFO -  * Debugger PIN: 672-597-689
+2024-08-10 16:11:27,520 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2024-08-10 16:11:27,520 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-10 16:11:27,521 - INFO -  * Restarting with stat
+2024-08-10 16:11:27,766 - WARNING -  * Debugger is active!
+2024-08-10 16:11:27,768 - INFO -  * Debugger PIN: 672-597-689
+2024-08-10 16:11:41,284 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2024-08-10 16:11:41,285 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-10 16:11:41,286 - INFO -  * Restarting with stat
+2024-08-10 16:11:41,505 - WARNING -  * Debugger is active!
+2024-08-10 16:11:41,507 - INFO -  * Debugger PIN: 672-597-689
+2024-08-10 16:11:43,675 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:43] "GET /index.html HTTP/1.1" 200 -
+2024-08-10 16:11:43,686 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:43] "GET /style.css HTTP/1.1" 200 -
+2024-08-10 16:11:43,688 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:43] "GET /input_data.js HTTP/1.1" 200 -
+2024-08-10 16:11:43,689 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:43] "GET /client.js HTTP/1.1" 200 -
+2024-08-10 16:11:52,345 - INFO - Nh\u1eadn \u0111\u01b0\u1ee3c d\u1eef li\u1ec7u: {}
+2024-08-10 16:11:52,356 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:52] "POST /start-process HTTP/1.1" 200 -
+2024-08-10 16:11:55,106 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:55] "GET /progress HTTP/1.1" 200 -
+2024-08-10 16:11:55,362 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:55] "GET /progress HTTP/1.1" 200 -
+2024-08-10 16:11:56,364 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:56] "GET /progress HTTP/1.1" 200 -
+2024-08-10 16:11:57,362 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:57] "GET /progress HTTP/1.1" 200 -
+2024-08-10 16:11:58,366 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:58] "GET /progress HTTP/1.1" 200 -
+2024-08-10 16:11:59,366 - INFO - 127.0.0.1 - - [10/Aug/2024 16:11:59] "GET /progress HTTP/1.1" 200 -
+2024-08-10 16:12:00,362 - INFO - 127.0.0.1 - - [10/Aug/2024 16:12:00] "GET /progress HTTP/1.1" 200 -
+2024-08-10 16:12:01,365 - INFO - 127.0.0.1 - - [10/Aug/2024 16:12:01] "GET /progress HTTP/1.1" 200 -
+2024-08-10 16:12:02,372 - INFO - 127.0.0.1 - - [10/Aug/2024 16:12:02] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:31:55,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2024-08-12 15:31:55,077 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-12 15:31:55,085 - INFO -  * Restarting with stat
+2024-08-12 15:31:55,303 - WARNING -  * Debugger is active!
+2024-08-12 15:31:55,305 - INFO -  * Debugger PIN: 672-597-689
+2024-08-12 15:32:04,121 - INFO - Nh\u1eadn \u0111\u01b0\u1ee3c d\u1eef li\u1ec7u: {}
+2024-08-12 15:32:04,137 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:04] "POST /start-process HTTP/1.1" 200 -
+2024-08-12 15:32:05,722 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:05] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:06,156 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:06] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:07,144 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:07] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:08,143 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:08] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:09,145 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:09] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:10,147 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:10] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:11,144 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:11] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:12,145 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:12] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:13,149 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:13] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:14,144 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:14] "GET /progress HTTP/1.1" 200 -
+2024-08-12 15:32:15,145 - INFO - 127.0.0.1 - - [12/Aug/2024 15:32:15] "GET /progress HTTP/1.1" 200 -

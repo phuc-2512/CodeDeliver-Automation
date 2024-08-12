@@ -12,9 +12,28 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-# Thiết lập logging
-logging.basicConfig(filename='app.log', level=logging.INFO, 
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+def setup_logging():
+    # Tạo một formatter
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
+    # Thiết lập file handler
+    file_handler = logging.FileHandler('app.log', encoding='utf-8')
+    file_handler.setFormatter(formatter)
+
+    # Thiết lập console handler
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(formatter)
+
+    # Lấy root logger
+    root_logger = logging.getLogger()
+    root_logger.setLevel(logging.INFO)
+
+    # Thêm cả hai handlers vào logger
+    root_logger.addHandler(file_handler)
+    root_logger.addHandler(console_handler)
+
+# Gọi hàm này ở đầu script của bạn
+setup_logging()
 
 
 def run_process():
@@ -51,7 +70,7 @@ def run_process():
         logging.info("Đã cập nhật tệp MQ4 với thông số mới")
 
     # Đường dẫn tới file bạn muốn đóng gói
-        file_to_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.ex4"
+        file_to_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"
     
     # Đường dẫn tới file .zip sẽ được tạo
         output_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.zip"
