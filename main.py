@@ -70,7 +70,7 @@ def run_process():
         logging.info("Đã cập nhật tệp MQ4 với thông số mới")
 
     # Đường dẫn tới file bạn muốn đóng gói
-        file_to_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4"
+        file_to_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.ex4"
     
     # Đường dẫn tới file .zip sẽ được tạo
         output_zip = r"C:\Users\phanv\OneDrive\Đính kèm\MyBot.zip"

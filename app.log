@@ -230,3 +230,91 @@ Result: 0 errors, 1 warnings, 115 msec elapsed
 2024-08-12 15:32:05,847 - INFO - File zip đã được tạo thành công tại C:\Users\phanv\OneDrive\Đính kèm\MyBot.zip
 2024-08-12 15:32:14,368 - INFO - \u0110� g\u1eedi email v\u1edbi file \u0111�nh k�m
 2024-08-12 15:32:14,368 - INFO - Đã gửi email với file đính kèm
+2024-08-12 15:46:41,332 - INFO - B\u1eaft \u0111\u1ea7u qu� tr�nh x\u1eed l�
+2024-08-12 15:46:41,332 - INFO - Bắt đầu quá trình xử lý
+2024-08-12 15:46:42,330 - INFO - \u0110� ki\u1ec3m tra t�n hi\u1ec7u t\u1eeb server
+2024-08-12 15:46:42,330 - INFO - Đã kiểm tra tín hiệu từ server
+2024-08-12 15:46:42,338 - INFO - \u0110� l\u1ea5y d\u1eef li\u1ec7u m\u1edbi nh\u1ea5t
+2024-08-12 15:46:42,338 - INFO - Đã lấy dữ liệu mới nhất
+2024-08-12 15:46:42,339 - INFO - \u0110� t\u1ea1o t\u1ec7p MQ4: C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4
+2024-08-12 15:46:42,339 - INFO - Đã tạo tệp MQ4: C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4
+2024-08-12 15:46:42,339 - INFO - \u0110� nh\u1eadn \u0111\u01b0\u1ee3c d\u1eef li\u1ec7u t\u1eeb data_fetcher.
+2024-08-12 15:46:42,339 - INFO - Đã nhận được dữ liệu từ data_fetcher.
+2024-08-12 15:46:42,341 - INFO - \u0110� c\u1eadp nh\u1eadt c�c th�ng s\u1ed1 ID (213123) v� ExpirationTime (2024-09-11) trong t\u1ec7p C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4 th�nh c�ng!
+2024-08-12 15:46:42,341 - INFO - Đã cập nhật các thông số ID (213123) và ExpirationTime (2024-09-11) trong tệp C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4 thành công!
+2024-08-12 15:46:42,341 - INFO - \u0110ang s\u1eed d\u1ee5ng MetaEditor t\u1ea1i: C:\Program Files (x86)\IG MetaTrader 4 Terminal\metaeditor.exe
+2024-08-12 15:46:42,341 - INFO - Đang sử dụng MetaEditor tại: C:\Program Files (x86)\IG MetaTrader 4 Terminal\metaeditor.exe
+2024-08-12 15:46:42,885 - INFO - \u0110� bi�n d\u1ecbch th�nh c�ng file C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4
+2024-08-12 15:46:42,885 - INFO - Đã biên dịch thành công file C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4
+2024-08-12 15:46:42,887 - INFO - \u0110� c\u1eadp nh\u1eadt t\u1ec7p MQ4 v\u1edbi th�ng s\u1ed1 m\u1edbi
+2024-08-12 15:46:42,887 - INFO - Đã cập nhật tệp MQ4 với thông số mới
+2024-08-12 15:46:42,888 - INFO - File zip \u0111� \u0111\u01b0\u1ee3c t\u1ea1o th�nh c�ng t\u1ea1i C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.zip
+2024-08-12 15:46:42,888 - INFO - File zip đã được tạo thành công tại C:\Users\phanv\OneDrive\Đính kèm\MyBot.zip
+2024-08-12 15:46:51,422 - INFO - \u0110� g\u1eedi email v\u1edbi file \u0111�nh k�m
+2024-08-12 15:46:51,422 - INFO - Đã gửi email với file đính kèm
+2024-08-14 08:33:53,689 - INFO - B\u1eaft \u0111\u1ea7u qu� tr�nh x\u1eed l�
+2024-08-14 08:33:53,689 - INFO - Bắt đầu quá trình xử lý
+2024-08-14 08:33:54,645 - INFO - \u0110� ki\u1ec3m tra t�n hi\u1ec7u t\u1eeb server
+2024-08-14 08:33:54,645 - INFO - Đã kiểm tra tín hiệu từ server
+2024-08-14 08:33:54,658 - INFO - \u0110� l\u1ea5y d\u1eef li\u1ec7u m\u1edbi nh\u1ea5t
+2024-08-14 08:33:54,658 - INFO - Đã lấy dữ liệu mới nhất
+2024-08-14 08:33:54,660 - INFO - \u0110� t\u1ea1o t\u1ec7p MQ4: C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4
+2024-08-14 08:33:54,660 - INFO - Đã tạo tệp MQ4: C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4
+2024-08-14 08:33:54,661 - INFO - \u0110� nh\u1eadn \u0111\u01b0\u1ee3c d\u1eef li\u1ec7u t\u1eeb data_fetcher.
+2024-08-14 08:33:54,661 - INFO - Đã nhận được dữ liệu từ data_fetcher.
+2024-08-14 08:33:54,673 - INFO - \u0110� c\u1eadp nh\u1eadt c�c th�ng s\u1ed1 ID (143214124124124) v� ExpirationTime (2024-09-13) trong t\u1ec7p C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4 th�nh c�ng!
+2024-08-14 08:33:54,673 - INFO - Đã cập nhật các thông số ID (143214124124124) và ExpirationTime (2024-09-13) trong tệp C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4 thành công!
+2024-08-14 08:33:54,674 - INFO - \u0110ang s\u1eed d\u1ee5ng MetaEditor t\u1ea1i: C:\Program Files (x86)\IG MetaTrader 4 Terminal\metaeditor.exe
+2024-08-14 08:33:54,674 - INFO - Đang sử dụng MetaEditor tại: C:\Program Files (x86)\IG MetaTrader 4 Terminal\metaeditor.exe
+2024-08-14 08:33:55,396 - INFO - \u0110� bi�n d\u1ecbch th�nh c�ng file C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4
+2024-08-14 08:33:55,396 - INFO - Đã biên dịch thành công file C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4
+2024-08-14 08:33:55,413 - INFO - \u0110� c\u1eadp nh\u1eadt t\u1ec7p MQ4 v\u1edbi th�ng s\u1ed1 m\u1edbi
+2024-08-14 08:33:55,413 - INFO - Đã cập nhật tệp MQ4 với thông số mới
+2024-08-14 08:33:55,426 - INFO - File zip \u0111� \u0111\u01b0\u1ee3c t\u1ea1o th�nh c�ng t\u1ea1i C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.zip
+2024-08-14 08:33:55,426 - INFO - File zip đã được tạo thành công tại C:\Users\phanv\OneDrive\Đính kèm\MyBot.zip
+2024-08-14 08:34:04,896 - INFO - \u0110� g\u1eedi email v\u1edbi file \u0111�nh k�m
+2024-08-14 08:34:04,896 - INFO - Đã gửi email với file đính kèm
+2024-08-14 08:34:39,095 - INFO - B\u1eaft \u0111\u1ea7u qu� tr�nh x\u1eed l�
+2024-08-14 08:34:39,095 - INFO - Bắt đầu quá trình xử lý
+2024-08-14 08:34:39,879 - INFO - \u0110� ki\u1ec3m tra t�n hi\u1ec7u t\u1eeb server
+2024-08-14 08:34:39,879 - INFO - Đã kiểm tra tín hiệu từ server
+2024-08-14 08:34:39,890 - INFO - \u0110� l\u1ea5y d\u1eef li\u1ec7u m\u1edbi nh\u1ea5t
+2024-08-14 08:34:39,890 - INFO - Đã lấy dữ liệu mới nhất
+2024-08-14 08:34:39,893 - INFO - \u0110� t\u1ea1o t\u1ec7p MQ4: C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4
+2024-08-14 08:34:39,893 - INFO - Đã tạo tệp MQ4: C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4
+2024-08-14 08:34:39,894 - INFO - \u0110� nh\u1eadn \u0111\u01b0\u1ee3c d\u1eef li\u1ec7u t\u1eeb data_fetcher.
+2024-08-14 08:34:39,894 - INFO - Đã nhận được dữ liệu từ data_fetcher.
+2024-08-14 08:34:39,896 - INFO - \u0110� c\u1eadp nh\u1eadt c�c th�ng s\u1ed1 ID (143214124124124) v� ExpirationTime (2024-09-13) trong t\u1ec7p C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4 th�nh c�ng!
+2024-08-14 08:34:39,896 - INFO - Đã cập nhật các thông số ID (143214124124124) và ExpirationTime (2024-09-13) trong tệp C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4 thành công!
+2024-08-14 08:34:39,897 - INFO - \u0110ang s\u1eed d\u1ee5ng MetaEditor t\u1ea1i: C:\Program Files (x86)\IG MetaTrader 4 Terminal\metaeditor.exe
+2024-08-14 08:34:39,897 - INFO - Đang sử dụng MetaEditor tại: C:\Program Files (x86)\IG MetaTrader 4 Terminal\metaeditor.exe
+2024-08-14 08:34:40,379 - INFO - \u0110� bi�n d\u1ecbch th�nh c�ng file C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4
+2024-08-14 08:34:40,379 - INFO - Đã biên dịch thành công file C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4
+2024-08-14 08:34:40,381 - INFO - \u0110� c\u1eadp nh\u1eadt t\u1ec7p MQ4 v\u1edbi th�ng s\u1ed1 m\u1edbi
+2024-08-14 08:34:40,381 - INFO - Đã cập nhật tệp MQ4 với thông số mới
+2024-08-14 08:34:40,383 - INFO - File zip \u0111� \u0111\u01b0\u1ee3c t\u1ea1o th�nh c�ng t\u1ea1i C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.zip
+2024-08-14 08:34:40,383 - INFO - File zip đã được tạo thành công tại C:\Users\phanv\OneDrive\Đính kèm\MyBot.zip
+2024-08-14 08:34:48,287 - INFO - \u0110� g\u1eedi email v\u1edbi file \u0111�nh k�m
+2024-08-14 08:34:48,287 - INFO - Đã gửi email với file đính kèm
+2024-08-14 08:36:37,196 - INFO - B\u1eaft \u0111\u1ea7u qu� tr�nh x\u1eed l�
+2024-08-14 08:36:37,196 - INFO - Bắt đầu quá trình xử lý
+2024-08-14 08:36:38,064 - INFO - \u0110� ki\u1ec3m tra t�n hi\u1ec7u t\u1eeb server
+2024-08-14 08:36:38,064 - INFO - Đã kiểm tra tín hiệu từ server
+2024-08-14 08:36:38,077 - INFO - \u0110� l\u1ea5y d\u1eef li\u1ec7u m\u1edbi nh\u1ea5t
+2024-08-14 08:36:38,077 - INFO - Đã lấy dữ liệu mới nhất
+2024-08-14 08:36:38,079 - INFO - \u0110� t\u1ea1o t\u1ec7p MQ4: C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4
+2024-08-14 08:36:38,079 - INFO - Đã tạo tệp MQ4: C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4
+2024-08-14 08:36:38,080 - INFO - \u0110� nh\u1eadn \u0111\u01b0\u1ee3c d\u1eef li\u1ec7u t\u1eeb data_fetcher.
+2024-08-14 08:36:38,080 - INFO - Đã nhận được dữ liệu từ data_fetcher.
+2024-08-14 08:36:38,082 - INFO - \u0110� c\u1eadp nh\u1eadt c�c th�ng s\u1ed1 ID (143214124124124) v� ExpirationTime (2024-09-13) trong t\u1ec7p C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4 th�nh c�ng!
+2024-08-14 08:36:38,082 - INFO - Đã cập nhật các thông số ID (143214124124124) và ExpirationTime (2024-09-13) trong tệp C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4 thành công!
+2024-08-14 08:36:38,083 - INFO - \u0110ang s\u1eed d\u1ee5ng MetaEditor t\u1ea1i: C:\Program Files (x86)\IG MetaTrader 4 Terminal\metaeditor.exe
+2024-08-14 08:36:38,083 - INFO - Đang sử dụng MetaEditor tại: C:\Program Files (x86)\IG MetaTrader 4 Terminal\metaeditor.exe
+2024-08-14 08:36:39,264 - INFO - \u0110� bi�n d\u1ecbch th�nh c�ng file C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.mq4
+2024-08-14 08:36:39,264 - INFO - Đã biên dịch thành công file C:\Users\phanv\OneDrive\Đính kèm\MyBot.mq4
+2024-08-14 08:36:39,267 - INFO - \u0110� c\u1eadp nh\u1eadt t\u1ec7p MQ4 v\u1edbi th�ng s\u1ed1 m\u1edbi
+2024-08-14 08:36:39,267 - INFO - Đã cập nhật tệp MQ4 với thông số mới
+2024-08-14 08:36:39,276 - INFO - File zip \u0111� \u0111\u01b0\u1ee3c t\u1ea1o th�nh c�ng t\u1ea1i C:\Users\phanv\OneDrive\\u0110i\u0301nh ke\u0300m\MyBot.zip
+2024-08-14 08:36:39,276 - INFO - File zip đã được tạo thành công tại C:\Users\phanv\OneDrive\Đính kèm\MyBot.zip
+2024-08-14 08:36:47,684 - INFO - \u0110� g\u1eedi email v\u1edbi file \u0111�nh k�m
+2024-08-14 08:36:47,684 - INFO - Đã gửi email với file đính kèm
